@@ -1,0 +1,44 @@
+
+// 1
+char find_zero(int a[][4],int z0x[],int z0y[])
+
+void remain_rand2(int a[][4],int z0x[],int z0y[],char k)
+
+void slide_left(int a[][4])
+
+void slide_right(int a[][4])
+
+void slide_up(int a[][4])
+
+void slide_down( int a[][4])
+
+//2
+
+int init_serial(const char *file, int baudrate)
+
+void lcd_draw_point(int x0, int y0, int color)
+
+//在顶点为x0,y0的位置开始显示一个颜色矩形，矩形的宽//度为w, 高度为h,颜色为color
+void lcd_draw_rect(int x0, int y0, int w, int h, int color)
+
+//把lcd清成color颜色
+void lcd_clean_screen(int color)
+
+void lcd_clean_qipan(int color)
+
+void lcd_draw_bmp(char *name, int x0, int y0, int w, int h)
+
+
+void lcd_show_2048(int a[][4])
+
+void initial_2048(int a[][4])
+
+//3
+
+void lcd_draw_word(unsigned char *ch, int color, int len,  int w, int x, int y)
+
+
+//4
+void monitor_touch(int a_2048[ ][4])
+
+int main(int argc, char *argv[])
